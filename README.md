@@ -30,9 +30,11 @@ env:
 
 ## 依存
 
-- `sentry-ruby` `~> 5.20`
-- `sentry-rails` `~> 5.20`
-- `sentry-sidekiq` `~> 5.20`
+- `sentry-ruby` `6.5.0`
+- `sentry-rails` `6.5.0`
+- `sentry-sidekiq` `6.5.0`
+
+> Discourse の plugin.rb `gem` ディレクティブはバージョン指定子（`~>` 等）を解釈できないため、**厳密版でピン**してください。
 
 ## License
 

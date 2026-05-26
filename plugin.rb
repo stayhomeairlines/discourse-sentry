@@ -6,9 +6,9 @@
 # authors: ikaskey
 # url: https://github.com/stayhomeairlines/discourse-sentry
 
-gem 'sentry-ruby', '~> 5.20'
-gem 'sentry-rails', '~> 5.20'
-gem 'sentry-sidekiq', '~> 5.20'
+gem 'sentry-ruby', '6.5.0'
+gem 'sentry-rails', '6.5.0'
+gem 'sentry-sidekiq', '6.5.0'
 
 after_initialize do
   dsn = ENV['DISCOURSE_SENTRY_DSN']
